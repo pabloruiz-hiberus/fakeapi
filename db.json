@@ -1,84 +1,86 @@
-[
-  {
-    "type": "header-carousel",
-    "content": {
-      "entries": [
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/tv/a-tu-vera.json",
-            "webURL": "https://www.cmmedia.es/play/tv/a-tu-vera"
+{
+  "results": [
+    {
+      "type": "header-carousel",
+      "content": {
+        "entries": [
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/tv/a-tu-vera.json",
+              "webURL": "https://www.cmmedia.es/play/tv/a-tu-vera"
+            },
+            "title": "A Tu Vera",
+            "category": "Sábados a las 22:00h",
+            "description": "",
+            "thumbnail": "https://imagenes.cmmedia.es/files/image_375_211/uploads/2024/02/02/65bcf67d4dcad.png"
           },
-          "title": "A Tu Vera",
-          "category": "Sábados a las 22:00h",
-          "description": "",
-          "thumnail": "https://imagenes.cmmedia.es/files/image_375_211/uploads/2024/02/02/65bcf67d4dcad.png"
-        },
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/doplay/documentales/breton-mirada-diablo.json",
-            "webURL": "https://www.cmmedia.es/doplay/documentales/breton-mirada-diablo"
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/doplay/documentales/breton-mirada-diablo.json",
+              "webURL": "https://www.cmmedia.es/doplay/documentales/breton-mirada-diablo"
+            },
+            "title": "ESTRENO",
+            "category": "LUNES 5 A LAS 22:30 HORAS",
+            "description": "",
+            "thumbnail": "https://imagenes.cmmedia.es/files/image_375_211/uploads/2024/02/02/65bcf67d4dcad.png"
+          }
+        ]
+      }
+    },
+    {
+      "type": "media-carousel",
+      "content": {
+        "title": "Televisión y radio en directo",
+        "entries": [
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/en-directo/tv.json",
+              "webURL": "https://www.cmmedia.es/play/en-directo/tv"
+            },
+            "title": null,
+            "thumbnail": "https://imagenes.cmmedia.es/files/image_286_161_2/uploads/2023/11/18/6558d422271a1.jpeg",
+            "mediaType": "directo"
           },
-          "title": "ESTRENO",
-          "category": "LUNES 5 A LAS 22:30 HORAS",
-          "description": "",
-          "thumnail": "https://imagenes.cmmedia.es/files/image_375_211/uploads/2024/02/02/65bcf67d4dcad.png"
-        }
-      ]
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/en-directo/radio.json",
+              "webURL": "https://www.cmmedia.es/play/en-directo/radio"
+            },
+            "title": null,
+            "thumbnail": "https://imagenes.cmmedia.es/files/image_286_161_2/uploads/2023/11/18/6558d41b9fa37.jpeg",
+            "mediaType": "directo"
+          }
+        ]
+      }
+    },
+    {
+      "type": "link-carousel",
+      "content": {
+        "title": "Consulta la programación",
+        "entries": [
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/programacion/tv.json",
+              "webURL": "https://www.cmmedia.es/play/programacion/tv"
+            },
+            "title": "Televisión"
+          },
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/programacion/radio.json",
+              "webURL": "https://www.cmmedia.es/play/programacion/radio"
+            },
+            "title": "Radio C-LM"
+          },
+          {
+            "link": {
+              "appURL": "https://www.cmmedia.es/play/programacion/play.json",
+              "webURL": "https://www.cmmedia.es/play/programacion/play"
+            },
+            "title": "Solo en play"
+          }
+        ]
+      }
     }
-  },
-  {
-    "type": "media-carousel",
-    "content": {
-      "title": "Televisión y radio en directo",
-      "entries": [
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/en-directo/tv.json",
-            "webURL": "https://www.cmmedia.es/play/en-directo/tv"
-          },
-          "title": null,
-          "thumbnail": "https://imagenes.cmmedia.es/files/image_286_161_2/uploads/2023/11/18/6558d422271a1.jpeg",
-          "media-type": "directo"
-        },
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/en-directo/radio.json",
-            "webURL": "https://www.cmmedia.es/play/en-directo/radio"
-          },
-          "title": null,
-          "thumbnail": "https://imagenes.cmmedia.es/files/image_286_161_2/uploads/2023/11/18/6558d41b9fa37.jpeg",
-          "media-type": "directo"
-        }
-      ]
-    }
-  },
-  {
-    "type": "link-carousel",
-    "content": {
-      "title": "Consulta la programación",
-      "entries": [
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/programacion/tv.json",
-            "webURL": "https://www.cmmedia.es/play/programacion/tv"
-          },
-          "title": "Televisión"
-        },
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/programacion/radio.json",
-            "webURL": "https://www.cmmedia.es/play/programacion/radio"
-          },
-          "title": "Radio C-LM"
-        },
-        {
-          "link": {
-            "appURL": "https://www.cmmedia.es/play/programacion/play.json",
-            "webURL": "https://www.cmmedia.es/play/programacion/play"
-          },
-          "title": "Solo en play"
-        }
-      ]
-    }
-  }
-]
+  ]
+}
