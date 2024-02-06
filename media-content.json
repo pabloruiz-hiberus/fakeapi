@@ -1,0 +1,20 @@
+{
+  "results": {
+    "content": [
+      {
+        "thumbnail": "https://imagenes.cmmedia.es/files/image_1254_362/uploads/2024/01/19/65aa655200c02.png",
+        "title": "En Compañía",
+        "subtitle": "CON RAMÓN GARCÍA Y GLORIA SANTORO",
+        "schedule": "De lunes a viernes a las 15:45h",
+        "url": "https://example.com/"
+      },
+      {
+        "thumbnail": "https://otraimagen.cmmedia.es/files/image_1234_567/uploads/2024/02/06/7890abcde.png",
+        "title": "Otro Programa",
+        "subtitle": "CON OTROS ANFITRIONES",
+        "schedule": "Todos los días a las 20:00h",
+        "url": "https://otroejemplo.com/"
+      }
+    ]
+  }
+}
